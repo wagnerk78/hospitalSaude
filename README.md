@@ -27,7 +27,7 @@ Este projeto é uma aplicação Spring Boot que gerencia beneficiários de um ho
       ```bash
       http://localhost:8080
 
-4. **Compilar e executar com Maven:**
+4. **Endpoints Principais:**
 
    ```bash
    http://localhost:8080/swagger-ui.html
