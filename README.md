@@ -32,7 +32,7 @@ http://localhost:8080/swagger-ui.html
 
 A seguir estão os principais endpoints disponíveis na API:
 
-<b>Listar Beneficiários:</b> GET /beneficiario \n
+<b>Listar Beneficiários:</b> GET /beneficiario <br>
 <b>Buscar Beneficiário por ID:</b> GET /beneficiario/{beneficiarioId} \n
 Adicionar Beneficiário: POST /beneficiario
 Atualizar Beneficiário: PUT /beneficiario/{beneficiarioId}
