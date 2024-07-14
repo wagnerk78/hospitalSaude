@@ -24,18 +24,16 @@ Este projeto é uma aplicação Spring Boot que gerencia beneficiários de um ho
 
 3. **Acessar a aplicação:**
    
-   ```bash
   http://localhost:8080
 
 4. **Documentação da API:**
 
-   ```bash
 http://localhost:8080/swagger-ui.html
 
 A seguir estão os principais endpoints disponíveis na API:
 
-Listar Beneficiários: GET /beneficiario
-Buscar Beneficiário por ID: GET /beneficiario/{beneficiarioId}
+<b>Listar Beneficiários:</b> GET /beneficiario \n
+<b>Buscar Beneficiário por ID:</b> GET /beneficiario/{beneficiarioId} \n
 Adicionar Beneficiário: POST /beneficiario
 Atualizar Beneficiário: PUT /beneficiario/{beneficiarioId}
 Atualizar Documentos do Beneficiário: PUT /beneficiario/{beneficiarioId}/documentos
