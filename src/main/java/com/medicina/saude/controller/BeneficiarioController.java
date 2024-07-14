@@ -9,15 +9,15 @@ import com.medicina.saude.model.Beneficiario;
 import com.medicina.saude.model.Documento;
 import com.medicina.saude.repository.BeneficiarioRepository;
 import com.medicina.saude.service.CadastroBeneficiarioService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.Parameter;
-import io.swagger.v3.oas.annotations.media.Content;
-import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
+
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -62,7 +62,6 @@ public class BeneficiarioController {
     }
 
 
-
     @PostMapping
     public ResponseEntity<Object> adicionar(@RequestBody Beneficiario beneficiario) {
         try {
@@ -72,7 +71,6 @@ public class BeneficiarioController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage());
         }
     }
-
 
     @PutMapping("/{beneficiarioId}")
     public ResponseEntity<BeneficiarioDTO> atualizar(@PathVariable Long beneficiarioId, @RequestBody Beneficiario beneficiario) {
