@@ -13,5 +13,5 @@ Este projeto é uma aplicação Spring Boot que gerencia beneficiários de um ho
 1. **Clonar o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/hospital-saude.git
-   cd hospital-saude
+   git clone https://github.com/wagnerk78/hospitalSaude
+   cd hospitalSaude
