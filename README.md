@@ -32,6 +32,8 @@ Este projeto é uma aplicação Spring Boot que gerencia beneficiários de um ho
   ```bash
    http://localhost:8080/swagger-ui.html
 
+<hr>
+
 
 A seguir estão os principais endpoints disponíveis na API:
 
@@ -43,7 +45,9 @@ A seguir estão os principais endpoints disponíveis na API:
 - <b>Excluir Beneficiário:</b> DELETE /beneficiario/{beneficiarioId}  <br>
 Para detalhes adicionais sobre parâmetros, respostas e exemplos, consulte a documentação Swagger.  <br>
 
-5. **Estrutura do Projeto:**
+<hr>
+
+5. <b>**Estrutura do Projeto:**</b>
 
 - src/main/java/com/medicina/saude/: Contém os arquivos Java do projeto.<br>
 - controller/: Controladores da API REST.<br>
