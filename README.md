@@ -32,6 +32,7 @@ Este projeto é uma aplicação Spring Boot que gerencia beneficiários de um ho
   ```bash
    http://localhost:8080/swagger-ui.html
 
+
 A seguir estão os principais endpoints disponíveis na API:
 
 - <b>Listar Beneficiários:</b> GET /beneficiario <br>
