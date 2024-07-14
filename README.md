@@ -33,25 +33,25 @@ http://localhost:8080/swagger-ui.html
 A seguir estão os principais endpoints disponíveis na API:
 
 <b>Listar Beneficiários:</b> GET /beneficiario <br>
-<b>Buscar Beneficiário por ID:</b> GET /beneficiario/{beneficiarioId} \n
-Adicionar Beneficiário: POST /beneficiario
-Atualizar Beneficiário: PUT /beneficiario/{beneficiarioId}
-Atualizar Documentos do Beneficiário: PUT /beneficiario/{beneficiarioId}/documentos
-Excluir Beneficiário: DELETE /beneficiario/{beneficiarioId}
-Para detalhes adicionais sobre parâmetros, respostas e exemplos, consulte a documentação Swagger.
+<b>Buscar Beneficiário por ID:</b> GET /beneficiario/{beneficiarioId}  <br>
+<b>Adicionar Beneficiário:</b> POST /beneficiario  <br>
+<b>Atualizar Beneficiário:</b> PUT /beneficiario/{beneficiarioId}  <br>
+<b>Atualizar Documentos do Beneficiário:</b> PUT /beneficiario/{beneficiarioId}/documentos  <br>
+<b>Excluir Beneficiário:</b> DELETE /beneficiario/{beneficiarioId}  <br>
+Para detalhes adicionais sobre parâmetros, respostas e exemplos, consulte a documentação Swagger.  <br>
 
 5. **Estrutura do Projeto:**
 
-src/main/java/com/medicina/saude/: Contém os arquivos Java do projeto.
-controller/: Controladores da API REST.
-dto/: Objetos de transferência de dados.
-exceptions/: Exceções personalizadas.
-model/: Entidades do banco de dados.
-repository/: Repositórios JPA.
-service/: Camada de serviço da aplicação.
-src/main/resources/: Configurações e arquivos de recursos.
-application.properties: Propriedades de configuração da aplicação.
-pom.xml: Arquivo de configuração do Maven.
+src/main/java/com/medicina/saude/: Contém os arquivos Java do projeto.<br>
+controller/: Controladores da API REST.<br>
+dto/: Objetos de transferência de dados.<br>
+exceptions/: Exceções personalizadas.<br>
+model/: Entidades do banco de dados.<br>
+repository/: Repositórios JPA.<br>
+service/: Camada de serviço da aplicação.<br>
+src/main/resources/: Configurações e arquivos de recursos.<br>
+application.properties: Propriedades de configuração da aplicação.<br>
+pom.xml: Arquivo de configuração do Maven.<br>
 
 
 
